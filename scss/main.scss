@@ -2,6 +2,7 @@
 @import 'custom';
 
 html {
+    position:relative;
     min-height: 100%;
 }
 
@@ -41,5 +42,8 @@ footer.footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.text-justify {
+    text-align: justify;
 }
 
